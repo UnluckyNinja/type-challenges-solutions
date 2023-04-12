@@ -1,7 +1,6 @@
 # 4. 实现 Pick
-实现 TS 内置的 `Pick<T, K>`，但不可以使用它。
 
-**从类型 `T` 中选择出属性 `K`，构造成一个新的类型。**
+https://github.com/type-challenges/type-challenges/blob/main/questions/00004-easy-pick/README.zh-CN.md
 
 ::: details 个人解答（仅供参考）
 <!--@include: ./solution.md-->

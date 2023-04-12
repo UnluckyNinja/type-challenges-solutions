@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "My TCs Solution",
   description: "My solutions for type challenges",
+  base: '/type-challenges-solutions/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -22,19 +23,19 @@ export default defineConfig({
       {
         text: '简单',
         items: [
-          { text: '4 - 实现 Pick', link: '/easy/4-Pick/' },
-          { text: '7 - 实现 ReadOnly', link: '/easy/7-Readonly/' },
-          { text: '11 - 元组转换为对象', link: '/easy/11-TupleToObject/' },
-          { text: '14 - 第一个元素', link: '/easy/14-First/' },
-          { text: '18 - 获取元组长度', link: '/easy/18-TupleLength/' },
-          { text: '43 - Exclude', link: '/easy/43-Exclude/' },
-          { text: '189 - Awaited', link: '/easy/189-Awaited/' },
-          { text: '268 - If', link: '/easy/268-If/' },
-          { text: '533 - Concat', link: '/easy/533-Concat/' },
-          { text: '898 - Includes', link: '/easy/898-Includes/' },
-          { text: '3057 - Push', link: '/easy/3057-Push/' },
-          { text: '3060 - Unshift', link: '/easy/3060-Unshift/' },
-          { text: '3312 - Parameters', link: '/easy/3312-Parameters/' },
+          { text: '4 - 实现 Pick', link: '/easy/4-pick/' },
+          { text: '7 - 实现 Readonly', link: '/easy/7-readonly/' },
+          { text: '11 - 元组转换为对象', link: '/easy/11-tuple-to-object/' },
+          { text: '14 - 第一个元素', link: '/easy/14-first/' },
+          { text: '18 - 获取元组长度', link: '/easy/18-tuple-length/' },
+          { text: '43 - Exclude', link: '/easy/43-exclude/' },
+          { text: '189 - Awaited', link: '/easy/189-awaited/' },
+          { text: '268 - If', link: '/easy/268-if/' },
+          { text: '533 - Concat', link: '/easy/533-concat/' },
+          { text: '898 - Includes', link: '/easy/898-includes/' },
+          { text: '3057 - Push', link: '/easy/3057-push/' },
+          { text: '3060 - Unshift', link: '/easy/3060-unshift/' },
+          { text: '3312 - Parameters', link: '/easy/3312-parameters/' },
         ]
       },
       {
@@ -42,6 +43,25 @@ export default defineConfig({
         items: [
           { text: '2 - 获取函数返回类型', link: '/medium/2-ReturnType/' },
           { text: '3 - 实现 Omit', link: '/medium/3-Omit/' },
+          { text: '8 - Readonly 2', link: '/medium/8-readonly-2/' },
+          { text: '9 - 深度 Readonly', link: '/medium/9-deep-readonly/' },
+          { text: '10 - 元组转合集', link: '/medium/10-tuple-to-union/' },
+          { text: '12 - 可串联构造器', link: '/medium/12-chainable-options/' },
+          { text: '15 - 最后一个元素', link: '/medium/15-last/' },
+          { text: '16 - 出堆', link: '/medium/16-pop/' },
+          { text: '20 - Promise.all', link: '/medium/20-promise-all/' },
+        ]
+      },
+      {
+        text: '困难',
+        items: [
+        ]
+      },
+      {
+        text: '地狱',
+        items: [
+          { text: '5 - 获取只读字段', link: '/extreme/5-readonly-keys/' },
+          { text: '151 - Query String Parser', link: '/extreme/151-query-string-parser/' },
         ]
       }
     ],
