@@ -41,8 +41,8 @@ export default defineConfig({
       {
         text: '中等',
         items: [
-          { text: '2 - 获取函数返回类型', link: '/medium/2-ReturnType/' },
-          { text: '3 - 实现 Omit', link: '/medium/3-Omit/' },
+          { text: '2 - 获取函数返回类型', link: '/medium/2-return-type/' },
+          { text: '3 - 实现 Omit', link: '/medium/3-omit/' },
           { text: '8 - Readonly 2', link: '/medium/8-readonly-2/' },
           { text: '9 - 深度 Readonly', link: '/medium/9-deep-readonly/' },
           { text: '10 - 元组转合集', link: '/medium/10-tuple-to-union/' },
